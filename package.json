@@ -1,11 +1,14 @@
 {
   "name": "simple-prime-generator",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "3 prime generation strategies",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "jest --coverage"
+  },
+  "bin": {
+    "run": "./index.js"
   },
   "author": "David Thomas",
   "license": "ISC",
