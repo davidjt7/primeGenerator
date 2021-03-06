@@ -1,6 +1,6 @@
 {
   "name": "simple-prime-generator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "3 prime generation strategies",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "test": "jest --coverage"
   },
   "bin": {
-    "run": "./index.js"
+    "gen-primes": "./index.js"
   },
   "author": "David Thomas",
   "license": "ISC",
