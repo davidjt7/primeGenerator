@@ -42,6 +42,10 @@ const getPrimes = (start, end, primeCheck) => {
 const sieveOfEratosthenes = (start, end) => {
   const primes = [];
   const prime = [];
+  if (start < 2) {
+    start = 2;
+  }
+  
   for (let i = 0; i < end - start + 1; ++i) {
     prime[i] = true;
   }
@@ -66,5 +70,5 @@ module.exports = {
   getPrimes,
   isPrimeNaive,
   isPrimeOptimized,
-  sieveOfEratosthenes
-}
+  sieveOfEratosthenes,
+};
