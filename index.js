@@ -1,4 +1,5 @@
-const {getPrimes, isPrimeNaive, isPrimeOptimized, sieveOfEratosthenes} = require('./primeGenerator');
+#! /usr/bin/env node
+const { getPrimes, isPrimeNaive, isPrimeOptimized, sieveOfEratosthenes } = require('./primeGenerator');
 
 if (!(process.argv[2] && process.argv[3] && process.argv[4])) {
   console.log(

@@ -1,8 +1,11 @@
 {
   "name": "simple-prime-generator",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "3 prime generation strategies",
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/davidjt7/primeGenerator"
+  },
   "scripts": {
     "start": "node index.js",
     "test": "jest --coverage"
