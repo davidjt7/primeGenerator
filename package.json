@@ -1,5 +1,5 @@
 {
-  "name": "primegenerator",
+  "name": "simple-prime-generator",
   "version": "1.0.0",
   "description": "3 prime generation strategies",
   "main": "index.js",
