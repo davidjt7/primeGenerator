@@ -45,8 +45,8 @@ const sieveOfEratosthenes = (start, end) => {
   if (start < 2) {
     start = 2;
   }
-  
-  for (let i = 0; i < end - start + 1; ++i) {
+
+  for (let i = 0; i < end + 1; ++i) {
     prime[i] = true;
   }
 
